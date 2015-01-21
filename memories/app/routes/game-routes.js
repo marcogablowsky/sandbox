@@ -1,4 +1,4 @@
-var Game = require('./models/Game');
+var Game = require('../models/Game');
 
 module.exports = function(app){
     var mapRequestToGame = function(req, game){
